@@ -1,8 +1,8 @@
 C:\Users\admin>cd\
 
-C:\>cd mrudul
+C:\>cd vipul
 
-C:\mrudul>ipconfig
+C:\vipul>ipconfig
 
 Windows IP Configuration
 
@@ -83,7 +83,7 @@ Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
                            Second Level Address Translation: Yes
                            Data Execution Prevention Available: Yes
 
-C:\mrudul>nslookup
+C:\vipul>nslookup
 DNS request timed out.
     timeout was 2 seconds.
 Default Server:  UnKnown
@@ -91,10 +91,10 @@ Address:  192.168.0.1
 
 > exit
 
-C:\mrudul>hostname
+C:\vipul>hostname
 lab0515
 
-C:\mrudul>ping
+C:\vipul>ping
 
 Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
             [-r count] [-s count] [[-j host-list] | [-k host-list]]
@@ -129,7 +129,7 @@ Options:
     -6             Force using IPv6.
 
 
-C:\mrudul>tracert
+C:\vipul>tracert
 
 Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
                [-R] [-S srcaddr] [-4] [-6] target_name
@@ -144,7 +144,7 @@ Options:
     -4                 Force using IPv4.
     -6                 Force using IPv6.
 
-C:\mrudul>arp
+C:\vipul>arp
 
 Displays and modifies the IP-to-Physical address translation tables used by
 address resolution protocol (ARP).
@@ -178,7 +178,7 @@ Example:
   > arp -s 157.55.85.212   00-aa-00-62-c6-09  .... Adds a static entry.
   > arp -a                                    .... Displays the arp table.
 
-C:\mrudul>netstat
+C:\vipul>netstat
 
 Active Connections
 
